@@ -75,6 +75,24 @@ interface TypedMessage<T extends MessageTypes> {
 }
 ```
 
+### Interactive Example
+
+export const Highlight = ({children, color}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '2px',
+      color: '#fff',
+      padding: '0.2rem',
+    }}>
+    {children}
+  </span>
+);
+
+<Highlight color="#25c2a0">Docusaurus green</Highlight> and <Highlight color="0xE68a3c">MetaMask Orange</Highlight> are my favorite colors.
+
+I can write **Markdown** alongside my _JSX_!
+
 ### Example
 
 Below is an example of signing typed data with MetaMask. Live example [here](https://metamask.github.io/test-dapp/#signTypedDataV4)
