@@ -1,7 +1,7 @@
----
+tab---
 description: Display custom user interface components using JSX.
 sidebar_position: 4
----
+esc---
 
 # Custom UI with JSX
 
@@ -29,7 +29,7 @@ Then, whenever you're required to return a custom UI JSX component, import the c
 SDK at `@metamask/snaps-sdk/jsx` and build your UI with them.
 For example, to display a [`Box`](#box) (the [`panel`](./index.md#panel) function equivalent) using [`snap_dialog`](../../reference/snaps-api.md#snap_dialog):
 
-```javascript title="index.jsx"
+tab```javascript title="index.jsx"
 import { Box, Heading, Text } from "@metamask/snaps-sdk/jsx";
 
 await snap.request({
