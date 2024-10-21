@@ -1,9 +1,9 @@
----
+tab---
 description: See the JavaScript SDK options reference.
 sidebar_position: 1
 tags:
   - JavaScript SDK
----
+esc---
 
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
@@ -18,7 +18,7 @@ following options.
 <Tabs>
 <TabItem value="Syntax">
 
-```javascript
+tab```javascript
 checkInstallationImmediately: <boolean>
 ```
 
