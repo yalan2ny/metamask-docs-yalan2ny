@@ -1,4 +1,4 @@
----
+tab---
 description: JavaScript + Wagmi (recommended)
 toc_max_heading_level: 2
 ---
@@ -70,7 +70,7 @@ Install MetaMask SDK along with its peer dependencies to an existing React proje
 pnpm install @metamask/sdk wagmi viem@2.x @tanstack/react-query
 ```
 
-### 2. Import required dependencies
+esc### 2. Import required dependencies
 
 In the root of your project, import the required dependencies:
 
@@ -117,7 +117,7 @@ const App = () => {
 }
 ```
 
-### 5. Add the connect button
+tab### 5. Add the connect button
 
 Add the wallet connect and disconnect buttons to your application:
 
